@@ -3,8 +3,8 @@ fn main() {
     println!("{x}");
 
     if x == 300000 {
-        println!("great");
-    }else {
+        println!("great\nIf you experience issues, pull it up on github");
+    } else {
         panic!("Failed to read line");
     }
 }
